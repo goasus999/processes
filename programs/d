@@ -1,0 +1,5 @@
+#!/bin/bash
+while true ; do
+    timestamp=$(date "+%Y/%m/%d %H:%M:%S")
+    sleep 42 && echo "[$timestamp] I am process a." >> /tmp/output.txt
+done
